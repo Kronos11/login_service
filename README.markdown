@@ -19,6 +19,8 @@ The following are a list of general ideas that have been noted for the direction
 
     Incoming network messages should be converted to game events. By doing this many options are opened up as custom "listeners" can be added in the future which can monitor various statistics. Ideas for a current set of statics to track for the login server would be consecutive failed logins, number of successful logins, frequency of player logins, etc.
 
+## Class Diagram ##
+![Login Service Class Diagram](http://anhstudios.com/images/login_service/Login_Service.jpg)
 
 ## Login Server Messages ##
 
